@@ -1,0 +1,21 @@
+<div class="jumbotron about">
+  <div class="row">
+    <div class="col-md-6 col-xs-12">
+      <div class="img-container">
+        <%= tag :image, 'avatar.png', alt: 'my_photo.png', class: 'img-responsive img-custom' %>
+      </div>
+    </div>
+    <div class="description col-md-6 col-xs-12">
+      <h1>Igor Lukashin</h1>
+      <br>
+      <p>QA automation engineer since May, 2018.</p>
+      <p>
+        Junior developer.<br> Studying Ruby (with Ruby on Rails), Java (Spring), Swift.<br>
+        Interested in webapp development, iOS/OSx.
+        <%= tag :a, "JetBrains", href: "https://www.jetbrains.com/", target: '_blank' %> user.
+      </p>
+      <br>
+      <p><%= tag :a, 'Write me', href: '/contacts'%> if you need more additional information.</p>
+    </div>
+  </div>
+</div>

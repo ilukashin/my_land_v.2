@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gregoryawesoman</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+  </head>
+  <body>
+    <%= partial :'layouts/navbar' %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <div class="container">
+      <%= partial :'layouts/footer' %>
+    </div>
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"> </script>
+    <script src="js/bootstrap.js" type="text/javascript"> </script>
+  </body>
+</html>
