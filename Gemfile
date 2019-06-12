@@ -6,3 +6,5 @@ gem 'sinatra'
 gem 'sinatra-partial'
 gem 'sinatra-reloader'
 gem 'sinatra-tags'
+
+gem 'sass'

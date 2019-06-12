@@ -1,0 +1,97 @@
+//main background color
+//$bg-color: #333;
+$bg-color: #232323;
+//color for navigation and jumbo block
+$elements-color: #00a2a5;
+//color for plain text
+$plain-text-color: #777;
+//color for nav buttons
+$nav-buttons-color: $bg-color;
+//nav hovers
+$nav-hover: #00e1e1;
+
+//customizing bootstrap's defaults colors
+$navbar-default-bg: $elements-color;
+$navbar-default-brand-color: $nav-buttons-color;
+$navbar-default-brand-hover-color: $nav-hover;
+$navbar-default-link-color: $navbar-default-brand-color;
+$navbar-default-link-hover-color: $navbar-default-brand-hover-color;
+
+//@import "bootstrap-sprockets";
+//@import "bootstrap";
+
+body {
+  background-color: $bg-color;
+  color: $plain-text-color;
+}
+
+.nav-btn {
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.nav-btn:hover {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.top-mrg {
+  margin-top: 40px;
+}
+
+.description {
+  background-color: $elements-color;
+  border-radius: 10px;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.jumbotron {
+  margin-top: 20px;
+  color: $bg-color;
+  background-color: $elements-color;
+  height: 550px;
+}
+
+.jumbotron p {
+  font-weight: 400;
+}
+
+.img-container {
+  max-height: 454px;
+}
+
+.img-custom {
+  border: 3px solid $bg-color;
+  border-radius: 10px;
+  display: block;
+  object-fit: scale-down;
+  width: auto;
+  max-height: inherit;
+}
+.description {
+  float: right;
+  text-align: center;
+}
+
+a {
+  color: RoyalBlue;
+}
+
+a:hover {
+  color: DeepSkyBlue ;
+}
+
+footer {
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  border-top: 3px solid $elements-color;
+  color: #777;
+  text-align: center;
+}
