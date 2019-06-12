@@ -17,8 +17,7 @@ $navbar-default-brand-hover-color: $nav-hover;
 $navbar-default-link-color: $navbar-default-brand-color;
 $navbar-default-link-hover-color: $navbar-default-brand-hover-color;
 
-//@import "bootstrap-sprockets";
-//@import "bootstrap";
+@import "bootstrap";
 
 body {
   background-color: $bg-color;

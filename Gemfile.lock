@@ -1,13 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    autoprefixer-rails (9.5.1)
+      execjs
     backports (3.15.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
+    execjs (2.7.0)
     ffi (1.10.0)
     multi_json (1.13.1)
     mustermann (1.0.3)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -16,6 +23,9 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -43,6 +53,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   sass
   sinatra
   sinatra-partial

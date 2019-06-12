@@ -8,3 +8,4 @@ gem 'sinatra-reloader'
 gem 'sinatra-tags'
 
 gem 'sass'
+gem 'bootstrap-sass'
